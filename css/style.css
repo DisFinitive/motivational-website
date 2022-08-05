@@ -103,8 +103,6 @@ li {
 }
 
 
-
-
 /* link button */
 
 .link {
@@ -117,14 +115,20 @@ li {
 	border-radius: 30px;
 	display: inline-block;
 	background: #80b7b3 url(../img/icons/icon.png) 123px no-repeat;
-	box-shadow: 0 0 30px #80b7b3;
+	box-shadow: 0 0 30px ;
 
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .link:hover {
-	border: solid 1px #629995;
-	border-radius: 30px;
+	border: solid 1px #3a5856;
 	color: #ff1;
-	background: #629995 url(../img/icons/icon_2.png) 123px no-repeat;
-	box-shadow: 0 0 30px #629995;
+	background: #3a5856 url(../img/icons/icon_2.png) 123px no-repeat;
+	box-shadow: 0 0 30px #3a5856;
+}
+
+.link:active {
+	border: 1px solid #818181;
+	color: #fff;
+	background: #818181 url(../img/icons/icon.png) 123px no-repeat;
+	box-shadow: 0 0 30px #818181;
 }
