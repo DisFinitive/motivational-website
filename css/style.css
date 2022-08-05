@@ -10,7 +10,6 @@ input::-ms-clear{display: none;}
 button{cursor: pointer;}
 button::-moz-focus-inner {padding:0;border:0;}
 a,a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
@@ -62,7 +61,7 @@ h1 {
 
 /* Paragraphs */
 
-.parag {
+.paragraph {
 	font-size: 12pt;
 	margin: 20px 45px;
 	color: #606c71;
@@ -121,4 +120,11 @@ li {
 	box-shadow: 0 0 30px #80b7b3;
 
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.link:hover {
+	border: solid 1px #629995;
+	border-radius: 30px;
+	color: #ff1;
+	background: #629995 url(../img/icons/icon_2.png) 123px no-repeat;
+	box-shadow: 0 0 30px #629995;
 }
