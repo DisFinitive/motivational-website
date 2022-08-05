@@ -1,1 +1,0 @@
-# motivational-website
